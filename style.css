@@ -11,3 +11,33 @@
     padding: 0 4%;
 }
 
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(134deg, #fcc6c6, 45%, white);
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 90px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav .menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+nav ul li {
+    padding: 20px;
+}
